@@ -1,0 +1,42 @@
+.carousel-container {
+    width: 80vw;
+    overflow: hidden;
+    margin-left: -0.5vw;
+    margin-top: 20vh;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel img {
+    width: 100%;
+
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 0vw;
+
+  }
+  
+  .next {
+    right: 0vw;
+  }
+  .butonlar {
+    justify-content: space-between;
+    display: flex;
+
+
+
+  }
